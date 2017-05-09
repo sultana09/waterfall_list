@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @list_of_waterfall.name %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @list_of_waterfall.height %>
+</p>
+
+<p>
+  <strong>Locality:</strong>
+  <%= @list_of_waterfall.locality %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @list_of_waterfall.country %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @list_of_waterfall.description %>
+</p>
+
+<%= link_to 'Edit', edit_list_of_waterfall_path(@list_of_waterfall) %> |
+<%= link_to 'Back', list_of_waterfalls_path %>
