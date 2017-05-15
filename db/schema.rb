@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170509172528) do
+ActiveRecord::Schema.define(version: 20170515131354) do
 
   create_table "list_of_waterfalls", force: true do |t|
     t.string   "name"
@@ -19,6 +19,11 @@ ActiveRecord::Schema.define(version: 20170509172528) do
     t.string   "locality"
     t.string   "country"
     t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "pictures", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end

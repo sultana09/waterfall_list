@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pictures
+
   resources :list_of_waterfalls
 
   get 'welcome/index'
